@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(background\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    height: 40vh;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+#about{
+    width: 600px;
+    
+}
+.sologan{
+    align-items: center;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.team-container {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member {
+    background-color: #f4f4f4;
+    background-image: url(WhatsApp\ Image\ 2024-12-17\ at\ 19.15.15.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+.team-member-2{
+
+}
+.team-member-3{
+
+}
+.team-member-4{
+
+}
+.team-member-5{
+
+}
+.team-member-6{
+
+}
+.team-member-7{
+
+}
+.team-member-8{
+
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
